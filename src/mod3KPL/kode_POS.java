@@ -39,7 +39,6 @@ public class kode_POS {
         }
     }
     public static String getKodePos(String kelurahan) {
-        kelurahan = kelurahan.toLowerCase();
         return checkName(kelurahan);
     }
 }
